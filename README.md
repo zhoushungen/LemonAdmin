@@ -36,10 +36,11 @@ docker compose up -d --build
 开发初始化账号：
 
 ```text
-admin / ChangeMe_123456
+账号：admin
+密码：由环境变量 LEMON_ADMIN_PASSWORD 注入（未配置时使用 Bootstrap 阶段生成的随机密码，记录在启动日志）
 ```
 
-该账号只用于开发环境。生产环境必须关闭自动迁移、BootstrapAdmin 和公开 Swagger，并使用环境变量注入随机 JWT 密钥。
+该账号只用于开发环境。生产环境必须关闭自动迁移、BootstrapAdmin 和公开 Swagger，并使用环境变量注入随机 JWT 密钥，禁止在仓库中写入任何明文密码或 Token。
 
 分开启动：
 
