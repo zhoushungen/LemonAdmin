@@ -1,0 +1,25 @@
+# .NET
+bin/
+obj/
+*.user
+*.cache
+*.suo
+.vs/
+
+# lemon-ui
+lemon-ui/node_modules/
+lemon-ui/dist/
+lemon-ui/.nuxt/
+lemon-ui/.output/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+*.env
+appsettings.*.json

@@ -1,0 +1,1 @@
+<template><div style="display:grid;place-items:center;height:100vh"><el-result icon="warning" title="页面不存在"><template #extra><el-button type="primary" @click="$router.push('/dashboard')">返回工作台</el-button></template></el-result></div></template>

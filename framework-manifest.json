@@ -1,0 +1,26 @@
+{
+  "name": "Lemon",
+  "version": "1.4.0",
+  "backend": ".NET 8 / ASP.NET Core Web API / Dapper",
+  "frontend": "Vue 3 / TypeScript / Vite",
+  "frontendDirectory": "lemon-ui",
+  "database": "MySQL 8",
+  "cache": "Redis",
+  "storageProviders": [
+    "Local",
+    "Qiniu"
+  ],
+  "documentation": "docs/DEVELOPMENT.md",
+  "features": [
+    "single-role-rbac",
+    "null-role-super-admin",
+    "department-data-scope",
+    "department-manager",
+    "admin-impersonation",
+    "ui-feature-switches",
+    "dual-identity-audit",
+    "four-project-architecture",
+    "explicit-mapping",
+    "fail-closed-access-profile"
+  ]
+}

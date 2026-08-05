@@ -1,0 +1,11 @@
+**/bin
+**/obj
+.git
+.vs
+.idea
+logs
+runtime
+uploads
+lemon-ui/node_modules
+lemon-ui/dist
+*.zip

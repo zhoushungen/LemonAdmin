@@ -1,0 +1,2 @@
+namespace Lemon.Application.Modules.Menus;
+public interface IMenuService{Task<IReadOnlyList<MenuDto>> GetAllAsync(CancellationToken ct=default);Task<IReadOnlyList<MenuDto>> GetCurrentAsync(long adminId,CancellationToken ct=default);Task<long>CreateAsync(SaveMenuRequest request,long operatorId,CancellationToken ct=default);Task UpdateAsync(long id,SaveMenuRequest request,long operatorId,CancellationToken ct=default);Task DeleteAsync(long id,long operatorId,CancellationToken ct=default);}
