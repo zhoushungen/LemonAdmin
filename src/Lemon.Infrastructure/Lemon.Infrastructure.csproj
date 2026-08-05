@@ -7,7 +7,7 @@
     <PackageReference Include="Dapper" />
     <PackageReference Include="MySqlConnector" />
     <PackageReference Include="StackExchange.Redis" />
-    <PackageReference Include="DbUp.MySql" />
+    <PackageReference Include="DbUp-MySql" />
     <PackageReference Include="Quartz.Extensions.Hosting" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />

@@ -18,7 +18,7 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
-        services.AddValidatorsFromAssemblyContaining<DependencyInjection>();
+        services.AddValidatorsFromAssemblyContaining<AdminLoginRequestValidator>();
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IAdminService, AdminService>();
         services.AddScoped<IRoleService, RoleService>();
